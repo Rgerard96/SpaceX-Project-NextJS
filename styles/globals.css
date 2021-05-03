@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+.logoBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.logoBox img {
+  width: 500px;
+  height: 50px;
+}
+
+.boxStyle {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .logoBox img {
+    width: 300px;
+    height: 50px;
+  }
+}
